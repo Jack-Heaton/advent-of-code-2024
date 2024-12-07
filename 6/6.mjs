@@ -184,5 +184,5 @@ function findPathBlockers(x, y, dir, positionList, visitedSpaces) {
   return blockerCount;
 }
 
-//Part 2
+//Part 1
 console.log(findPathBlockers(currentX, currentY, currentDirection, structuredClone(positionList), visitedSpaces));
